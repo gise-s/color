@@ -1,0 +1,44 @@
+body{
+    background-color: #232323;
+   text-align: center;
+}
+.square{
+    float: left;
+    width: 30%;
+    height:0;
+    padding-bottom: 30%;
+    background-color: aqua;
+    margin: 1.66% ;
+    border-radius: 35px;
+}
+#container{
+    max-width: 800px;/*se pedian 600*/
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique; 
+    color: azure;
+}
+#colorDisplay {
+    color: white;
+    display: block;
+    font-size: 150%;
+    margin-top: 2%;
+    font-weight: bold;
+    }
+
+#stripe{
+    background:white;
+    height: 45px;
+    }
+.selected{
+    background: pink;
+}
+.boton{
+    font-family: 'Dancing Script', cursive;
+    border-radius: 35px;
+    font-size: medium;
+    border: none;
+    outline: none
+}
