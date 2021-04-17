@@ -61,7 +61,7 @@ function randomColor() {
    let a = Math.floor(Math.random() * 256)
    let b = Math.floor(Math.random() * 256)
    let c = Math.floor(Math.random() * 256)
-   return (`RGB(${a}, ${b}, ${c})`)
+   return (`rgb(${a}, ${b}, ${c})`)
 };
 
 
