@@ -10,8 +10,7 @@ let easy = document.querySelector("#easy");
 let hard = document.querySelector("#hard");
 let h1 = document.querySelector("h1")
 let clickedColor
-
-
+////****////
 function pickColor(num) {
    let i = Math.floor(Math.random() * num)
 return colors[i] 
